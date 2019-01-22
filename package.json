@@ -1,0 +1,17 @@
+{
+  "name": "jester",
+  "version": "1.0.0",
+  "description": "instant Java tester",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "codemirror": "^5.43.0",
+    "electron": "^4.0.2",
+    "electron-css-reload": "^1.0.8"
+  }
+}
