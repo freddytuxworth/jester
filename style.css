@@ -45,6 +45,10 @@ body {
     font-size: 14px;
 }
 
+#output.error {
+    color: #FF2424;
+}
+
 #runButton {
     position: absolute;
     bottom: 10px;
@@ -64,4 +68,9 @@ body {
 #runButton:hover {
     background-color: rgb(43, 152, 255);
 
+}
+
+#runButton.working {
+    background-color: #666666;
+    cursor: default;
 }
